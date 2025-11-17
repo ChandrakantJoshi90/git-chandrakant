@@ -6,5 +6,9 @@ pipeline {
         echo "I hope this pipeline build doesn't fail"
       }
     }
+    stage('Thank you') {
+      steps {
+        echo "Thank you the build using the webhook successful"
   }
 }
+  }}
