@@ -11,7 +11,7 @@ pipeline {
         echo "Thank you the build using the webhook successful"
   }
 }
-    stgae('Add') {
+    stage('Add') {
       steps {
         echo "Trying one more build to check the option discard builds"
       }
