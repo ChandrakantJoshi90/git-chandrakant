@@ -16,5 +16,8 @@ pipeline {
         echo "Trying one more build to check the option discard builds"
       }
     }
+    stage('Discard builds') {
+      steps {
+        echo "The discard builds option worked"
   }
 }
