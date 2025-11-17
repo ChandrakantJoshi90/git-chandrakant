@@ -21,3 +21,5 @@ pipeline {
         echo "The discard builds option worked"
   }
 }
+}
+}
